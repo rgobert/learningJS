@@ -1,7 +1,9 @@
-let currentResult = 0;
+const defaultResult = 10;
+
+let currentResult = defaultResult;
+let calculationDescription = 0;
 
 currentResult = currentResult + 10;
+calculationDescription = 'currentResult +10';
 
-outputResult(currentResult, '');
-
-alert(30);
+outputResult(currentResult, calculationDescription);
