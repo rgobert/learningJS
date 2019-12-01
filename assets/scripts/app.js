@@ -1,10 +1,10 @@
 const defaultResult = 0;
 let currentResult = defaultResult;
-let logEntries = [];
+let logEntries = []
 
 // Gets input from input field
 function getUserNumberInput() {
-  return parseInt(usrInput.value);
+  return parseInt(userInput.value);
 }
 
 // Generates and writes calculation log
